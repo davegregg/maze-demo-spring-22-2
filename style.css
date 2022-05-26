@@ -1,1 +1,19 @@
-/* Write your CSS Here. */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    --cell-size: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    width: var(--cell-size);
+    height: var(--cell-size);
+    background-color: salmon;
+    outline: 1px dotted black;
+}
